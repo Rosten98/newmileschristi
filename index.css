@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* GENERALS */
+html {
+	scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* color: #302F2F; */
+  }
+  html, 
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  /* width: 95%; */
+  max-width: 1240px;
+  padding: 0 1em;
+}
+
+
+.bg-green, .bg-orange, .bg-brown, .bg-darkblue {
+  color: white;
+  border-radius: 20px;
+  padding: 5px 0;
+}
+
+.bg-green {
+  background-color: #8A9F98;
+}
+
+.bg-orange {
+  background-color: #9F5E48;
+}
+
+.bg-brown {
+  background-color: #A49B8C;
+}
+
+.bg-darkblue {
+  background-color: #3D5C71;
+}
+
+/* NAVIGATION */
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #302F2F;
+}
+
+.mobile-nav-icons {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.mobile-nav-icons #search {
+  font-size: 23px;
+  /* color: #747474;  */
+  transform: rotate(90deg) !important;
+}
+
+.iconify {
+  margin-left: 18px;
+  color: white;
+}
+
+.iconify.cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  z-index: 2;
+  visibility: hidden;
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1c3343;
+  top:0;
+  left: 0;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.menu li {
+  margin-bottom: 40px;
+  font-size: 1.6em;
+}
+
+.menu li a {
+  background-color: #3D5C71;
+  padding: 15px 35px;
+  border-radius: 3px;
+}
+
+.header-quote {
+  position: relative;
+}
+
+.header-quote img{
+  width: 100%;
+  height: auto;
+  filter: grayscale(20%);
+}
+
+.quote {
+  position: absolute;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+
+}
+
+.quote span {
+  font-size: .7em;
+}
+
+/* What's MC */
+.what-is-mc {
+  text-align: center;
+}
+
+.bg-green, .bg-orange, .bg-brown, .bg-darkblue {
+  font-size: 1.1em;
+}
+
+.what-is-mc h2 {
+  margin: 22px 0;
+}
+
+.what-is-mc p {
+  padding: 10px 20px;
+  /* margin-bottom: 10px; */
+  font-size: 1.3em;
+  border-radius: 40px;
+  line-height: 1.7em;
+}
+
+.events {
+  margin: 22px 0;
+}
+
+.events li {
+  margin-bottom: 14px;
+}
