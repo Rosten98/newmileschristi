@@ -35,6 +35,15 @@ ul {
   padding: 0 1em;
 }
 
+button {
+  border: none;
+  border-radius: 3px;
+  padding: 16px;
+}
+
+h2, h3, h4 {
+  margin: 22px 0;
+}
 
 .bg-green, .bg-orange, .bg-brown, .bg-darkblue {
   color: white;
@@ -51,7 +60,7 @@ ul {
 }
 
 .bg-brown {
-  background-color: #A49B8C;
+  background-color: #a27933;
 }
 
 .bg-darkblue {
@@ -63,9 +72,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #302F2F;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1a1a1a;
 }
 
 .mobile-nav-icons {
@@ -141,7 +150,7 @@ ul {
   font-size: 18px;
   text-align: center;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.5em;
 
 }
 
@@ -158,16 +167,12 @@ ul {
   font-size: 1.1em;
 }
 
-.what-is-mc h2 {
-  margin: 22px 0;
-}
-
 .what-is-mc p {
   padding: 10px 20px;
   /* margin-bottom: 10px; */
-  font-size: 1.3em;
-  border-radius: 40px;
-  line-height: 1.7em;
+  font-size: 1.2em;
+  border-radius: 60px;
+  line-height: 1.6em;
 }
 
 .events {
@@ -176,4 +181,99 @@ ul {
 
 .events li {
   margin-bottom: 14px;
+}
+
+/* Retreats */
+.retreats {
+  position: relative;
+  margin: 20px 0;
+}
+
+.retreats h3{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.retreats button {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  background-color: #1c3343;
+  color: white;
+  padding: 16px;
+  font-size: 1.1em;
+  transition: .2s;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.retreats button:hover {
+  background-color: #0f1e29;
+  cursor: pointer;
+}
+
+.retreats img {
+  height: 100%;
+}
+
+.retreats-text {
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.5);
+  height: 100%; */
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.retreats-filter {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Other resources */
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  padding: 0 1em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.resource .iconify {
+  margin: 0;
+  font-size: 5em;
+  margin-bottom: 22px;
+}
+
+.resource p {
+  margin-bottom: 22px;
+}
+
+.resource button {
+  padding: 5px 16px;
+  background-color: #874833;
+  color: white;
+  border-radius: 16px;
+  font-size: .8em;
+  margin-bottom: 22px;
+}
+
+.bg-darkblue.resource button {
+  background-color: #1d3b4f;
+}
+
+.bg-green.resource button {
+  background-color: #5e726c;
 }
