@@ -74,7 +74,7 @@ h2, h3, h4 {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #1a1a1a;
+  background-color: #000;
 }
 
 .mobile-nav-icons {
@@ -276,4 +276,63 @@ h2, h3, h4 {
 
 .bg-green.resource button {
   background-color: #5e726c;
+}
+
+/* Upcoming events */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #D9CDC1;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.card-left {
+  width: 50%;
+}
+
+.card p {
+  background: #6b6559;
+  padding: 5px;
+  text-align: center;
+  font-size: .8em;
+  margin-top: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.card h4 {
+  margin: 0;
+  color: #6b6559;
+}
+
+.card button {
+  padding: 10px 16px;
+  background-color: #f0e6d4;
+}
+
+/* Instagram */
+.instagram {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1d3b4f;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+footer .iconify {
+  margin: 0;
+}
+footer section {
+  padding-bottom: 1em;
 }
