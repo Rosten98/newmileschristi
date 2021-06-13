@@ -42,9 +42,9 @@ button {
   padding: 16px;
 }
 
-h2, h3, h4, h5 {
+/* h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;;
-}
+} */
 
 h2, h3, h4 {
   margin: 22px 0;
@@ -267,20 +267,34 @@ h2, h3, h4 {
 }
 
 .resource button {
-  padding: 5px 16px;
-  background-color: #874833;
+  padding: 8px 16px;
   color: white;
-  border-radius: 16px;
   font-size: .8em;
   margin-bottom: 22px;
+}
+
+.bg-orange.resource button {
+  background-color: #874833;
+}
+
+.bg-orange.resource button:hover {
+  background-color: #6f3623;
 }
 
 .bg-darkblue.resource button {
   background-color: #1d3b4f;
 }
 
+.bg-darkblue.resource button:hover {
+  background-color: #122d3f;
+}
+
 .bg-green.resource button {
   background-color: #5e726c;
+}
+
+.bg-green.resource button:hover {
+  background-color: #495e57;
 }
 
 /* Upcoming events */
@@ -288,7 +302,7 @@ h2, h3, h4 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: #dcc7b3;
+  background-color: #B1C8D6;
   padding: 1em;
   margin-bottom: 1em;
   border-radius: 3px;
@@ -299,25 +313,27 @@ h2, h3, h4 {
 }
 
 .card p {
-  /* background: #e7dfcf; */
-  background-color: #ebd9c7;
   padding: 5px;
-  text-align: center;
-  font-size: .8em;
+  font-size: .9em;
+  font-weight: 600;
   margin-top: 10px;
   border-radius: 20px;
-  color: #6b6559;
+  color: #6e7c85;
 }
 
 .card h4 {
   margin: 0;
-  color: #6b6559;
+  color: #30383d;
 }
 
 .card button {
   padding: 10px 16px;
-  background-color: #6b6559;
+  background-color: #647a88;
   color: white;
+}
+
+.card button:hover {
+  background-color: #52646f;
 }
 
 /* Instagram */
