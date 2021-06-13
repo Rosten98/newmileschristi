@@ -165,7 +165,32 @@ h2, h3, h4 {
 
 /* What's MC */
 .what-is-mc {
+  position: relative;
   text-align: center;
+}
+
+.what-is-mc::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 38px solid #3D5C71;
+  border-right: 1000px solid transparent;
+}
+
+.what-is-mc::before{
+  content: '';
+  position: absolute;
+  /* z-index: -1; */
+  top: -46px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid #3D5C71;
+  border-right: 200px solid transparent;
 }
 
 .bg-green, .bg-orange, .bg-brown, .bg-darkblue {
