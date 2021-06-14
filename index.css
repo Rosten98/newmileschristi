@@ -344,7 +344,6 @@ h2, h3, h4 {
 }
 
 .card p {
-  padding: 5px;
   font-size: .9em;
   font-weight: 600;
   margin-top: 10px;
@@ -425,4 +424,8 @@ footer section {
 
 footer a {
   color: #9daab3;
+}
+
+footer a:hover {
+  color: #d2dae0;
 }
