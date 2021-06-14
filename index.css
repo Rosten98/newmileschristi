@@ -101,12 +101,13 @@ h2, h3, h4 {
 
 .iconify.cross {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 35px;
+  right: 15px;
   font-size: 30px;
   color: white;
   z-index: 2;
   visibility: hidden;
+  /* transition: 1s ease-in; */
 }
 
 .menu {
@@ -123,6 +124,7 @@ h2, h3, h4 {
   justify-content: center;
   align-items: center;
   visibility: hidden;
+  /* transition: 1s ease-in; */
 }
 
 .menu li {
@@ -138,12 +140,6 @@ h2, h3, h4 {
 
 .header-quote {
   position: relative;
-}
-
-.header-quote img{
-  width: 100%;
-  height: auto;
-  filter: grayscale(20%);
 }
 
 .quote {

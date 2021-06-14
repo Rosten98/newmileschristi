@@ -15,13 +15,13 @@
         <img src="./logo-white.png" alt="" height="60px">
         <div class="mobile-nav-icons">
           <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
-          <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right"></span>
+          <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" onclick="openNav()"></span>
         </div>
     </div>
-    <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross"></span>
-    <ul class="menu">
+    <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
+    <ul class="menu" id="menu">
       <li>Nosotros</li>
-      <li>Apostlados</li>
+      <li>Apostolados</li>
       <li>Blog</li>
       <li><a href="#Donate">Dona Ahora</a></li>
     </ul>
@@ -157,5 +157,6 @@
       </section>
     </div>
   </footer>
+  <script src="./index.js"></script>
 </body>
 </html>
