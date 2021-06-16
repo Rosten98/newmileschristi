@@ -10,21 +10,21 @@
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="">
-    <div class="mobile-nav container">
-        <img src="./assets/img/logo-white.png" alt="" height="60px">
-        <div class="mobile-nav-icons">
-          <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
-          <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" onclick="openNav()"></span>
-        </div>
+  <nav class="mobile-nav container">
+    <img src="./assets/img/logo-white.png" alt="" height="60px" class="logo">
+    <div class="mobile-nav-icons">
+      <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
+      <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" id="ham-menu" onclick="openNav()"></span>
     </div>
-    <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
-    <ul class="menu" id="menu">
-      <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
-      <li><a href="#retreats" onclick="closeNav()">Apostolados</a></li>
-      <li><a href="#resources" onclick="closeNav()">Blog</a></li>
-      <li><a href="#Donate" onclick="closeNav()"><button>Donar ahora</button></a></li>
-    </ul>
+    <div class="menu-container">
+      <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
+      <ul class="menu" id="menu">
+        <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
+        <li><a href="#retreats" onclick="closeNav()">Apostolados</a></li>
+        <li><a href="#resources" onclick="closeNav()">Blog</a></li>
+        <li><a href="#Donate" onclick="closeNav()"><button>Donar ahora</button></a></li>
+      </ul>
+    </div>
   </nav>
   <!-- Header -->
   <header class="header-quote">
