@@ -10,24 +10,33 @@
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="mobile-nav container">
-    <img src="./assets/img/logo-white.png" alt="" height="60px" class="logo">
-    <div class="mobile-nav-icons">
-      <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
-      <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" id="ham-menu" onclick="openNav()"></span>
-    </div>
-    <div class="menu-container">
-      <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
-      <ul class="menu" id="menu">
-        <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
-        <li><a href="#retreats" onclick="closeNav()">Apostolados</a></li>
-        <li><a href="#resources" onclick="closeNav()">Blog</a></li>
-        <li><a href="#Donate" onclick="closeNav()"><button>Donar ahora</button></a></li>
-      </ul>
+  <nav class="nav">
+    <div class="container inner-nav">
+      <img src="./assets/img/logo-white.png" alt="" height="60px" class="logo">
+      <div class="nav-icons">
+        <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
+        <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" id="ham-menu" onclick="openNav()"></span>
+      </div>
+      <div class="menu-container">
+        <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
+        <ul class="menu" id="menu">
+          <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
+          <li><a href="#retreats" onclick="closeNav()">Apostolados</a></li>
+          <li><a href="#resources" onclick="closeNav()">Blog</a></li>
+          <li><a href="#Donate" onclick="closeNav()"><button>Donar ahora</button></a></li>
+        </ul>
+        <ul class="menu-desktop">
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#retreats">Apostolados</a></li>
+          <li><a href="#resources">Blog</a></li>
+          <li><a href="#Donate"><button>Donar ahora</button></a></li>
+        </ul>
+      </div>
     </div>
   </nav>
   <!-- Header -->
   <header class="header-quote">
+    <div class="box-helper"></div>
     <video width="100%" height="100%" autoplay muted loop>
       <source src="./assets/main_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -52,7 +61,10 @@
       <li class="bg-brown">2. Retiros Espirituales</li>
       <li class="bg-darkblue">3. Formación Católica</li>
     </ul>
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <div class="videos">
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">
@@ -121,20 +133,20 @@
     <p>Instagram section</p>
   </section>
   <!-- Footer -->
-  <footer class="container footer">
-    <section>
-      <h5>Sitios de interés</h5>
-      <ul>
-        <li><a href="#">Multimedia</a></li>
-        <li><a href="#">Actividades Jóvenes</a></li>
-        <li><a href="#">Grupos de apostolado</a></li>
-        <li><a href="#">Retiros</a></li>
-        <li><a href="#">Quiénes somos</a></li>
-        <li><a href="#">Ayúdanos</a></li>
-        <li><a href="#">Consagradas</a></li>
-      </ul>
-    </section>
-    <div class="footer-left">
+  <footer class="footer">
+    <div class="container inner-footer">
+      <section>
+        <h5>Sitios de interés</h5>
+        <ul>
+          <li><a href="#">Multimedia</a></li>
+          <li><a href="#">Actividades Jóvenes</a></li>
+          <li><a href="#">Grupos de apostolado</a></li>
+          <li><a href="#">Retiros</a></li>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Ayúdanos</a></li>
+          <li><a href="#">Consagradas</a></li>
+        </ul>
+      </section>
       <section>
         <h5>Miles Christi en el mundo</h5>
         <ul>
