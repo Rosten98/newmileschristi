@@ -44,6 +44,13 @@ button {
   cursor: pointer;
 }
 
+.button {
+  border: none;
+  border-radius: 3px;
+  padding: 16px;
+  transition: background-color .2s ease;
+  cursor: pointer;
+}
 /* h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;;
 } */
@@ -410,6 +417,11 @@ nav > div .nav-icons {
 /* Instagram */
 .instagram {
   text-align: center;
+}
+
+.instagram .button {
+  background-color: #1c3343;
+  color: white;
 }
 
 /* Footer */
