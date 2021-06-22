@@ -131,7 +131,7 @@ h2, h3, h4 {
   transition: opacity 0.3s ease-in-out;
 }
 
-nav > div .logo {
+nav > div .logo-link {
   order: -1;
 }
 
@@ -420,8 +420,24 @@ nav > div .nav-icons {
 }
 
 .instagram .button {
+  display: flex;
   background-color: #1c3343;
   color: white;
+  width: 250px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+.instagram .button:hover {
+  background-color: #0f1e29;
+  cursor: pointer;
+}
+
+#curator-feed-default-feed-layout {
+  z-index: 0;
+  margin-top: 30px;
 }
 
 /* Footer */
@@ -457,13 +473,13 @@ footer .inner-footer .iconify {
   margin: 0;
 }
 
-.contact .iconify {
+.contact li .iconify {
   font-size: 30px; 
   background-color: #172833; 
   padding: 7px; 
   color:white; 
   border-radius: 100%;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .social .iconify {
@@ -603,7 +619,7 @@ footer .inner-footer a:hover {
     display: none;
   }
 
-  nav > div .logo {
+  nav > div .logo-link {
     order: -1;
     margin-right: auto;
   }
